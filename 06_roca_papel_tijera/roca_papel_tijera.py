@@ -1,7 +1,6 @@
 import random
 
 game = ["ROCK", "PAPER", "SCISSORS"]
-
 play1, play2 = random.randint(0, 2), random.randint(0, 2)
 
 if play1 == play2:
